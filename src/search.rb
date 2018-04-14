@@ -14,7 +14,7 @@ def zip_message(response)
 end
 
 def create_url(word, option)
-  option_yml = YAML.load_file('option.yml')
+  option_yml = YAML.load_file('../config/option.yml')
   return if option_yml['option'][option].nil?
   option_yml['option'][option].gsub!(/url/, CGI.escape(word))
 end
@@ -35,7 +35,7 @@ end
 def search(arg)
   return if arg.nil?
   url = CGI.escape(arg)
-  url_yml = YAML.load_file('option.yml')
+  url_yml = YAML.load_file('../config/option.yml')
 
   response = response(url_yml['normal'] + url)
   zip_message(response)
