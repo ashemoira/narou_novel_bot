@@ -1,6 +1,6 @@
 # narou_novel_bot
 
-narou_novel_bot は discord 上でなろう小説の検索が出来るようにする bot です。  
+narou_novel_bot は discord 上でなろう小説の検索が出来る bot です。  
 使用できる検索オプションは個人的によく使うものがなので全ての検索条件が使用できるわけではないのでご了承ください。
 
 ## 使い方
