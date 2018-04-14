@@ -15,7 +15,7 @@ narou_novel_bot は discord 上でなろう小説の検索が出来る bot で�
 
 ```
 # 新着順検索
-/narou -n タイトル
+/narou -n タイトル
 ```
 
 他の検索オプションは`-help`で確認できます
