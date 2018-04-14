@@ -1,1 +1,29 @@
 # narou_novel_bot
+
+narou_novel_bot は discord 上でなろう小説の検索が出来るようにする bot です。  
+使用できる検索オプションは個人的によく使うものがなので全ての検索条件が使用できるわけではないのでご了承ください。
+
+## 使い方
+
+1.  git clone する
+
+```
+git clone https://github.com/ashemoira/narou_novel_bot.git
+```
+
+2.  `discord_token.rb`に自分の discord bot のトークンを入れる
+
+```
+TOKEN = "自分のbotのトークン".freeze
+```
+
+3.  `narou_novel.rb`を起動する
+
+```
+ruby narou_novel.rb
+```
+
+## 要望など
+
+この機能もほしいなどありましたら issue を上げてください。  
+対応できそうなものは対応します。
