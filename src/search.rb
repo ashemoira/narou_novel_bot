@@ -7,7 +7,7 @@ def zip_message(response)
   zip = '```'
   @doc = Nokogiri::HTML(response.response_body)
   @doc.css('.tl').length.times do |index|
-    zip << @doc.css('.tl')[index].inner_text << "\n"
+    zip << '・' << @doc.css('.tl')[index].inner_text << "\n"
   end
   zip << '検索にヒットしませんでした' if @doc.css('.tl').length.zero?
   zip << '```'
