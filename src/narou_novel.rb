@@ -18,7 +18,9 @@ bot.command :narou do |event, *args|
     return event << '条件検索はできません' if args.length == 2
     search(args.first)
   when 1
-    return event << help if args.first.include?('-help')
+    if args.first.include?('-help') || args.first.include?('-h')
+      return event << help
+    end
     return event << '検索したいタイトルが入力されていません' if args.length == 1
     option_search(args)
   when 2
