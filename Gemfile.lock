@@ -14,7 +14,7 @@ GEM
     ethon (0.11.0)
       ffi (>= 1.3.0)
     event_emitter (0.2.6)
-    ffi (1.9.23)
+    ffi (1.15.5)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     mime-types (3.1)
