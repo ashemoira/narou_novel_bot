@@ -27,10 +27,10 @@ GEM
     mini_portile2 (2.8.9)
     mutex_m (0.3.0)
     netrc (0.11.0)
-    nokogiri (1.18.9)
+    nokogiri (1.19.1)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.18.9-x64-mingw-ucrt)
+    nokogiri (1.19.1-x64-mingw-ucrt)
       racc (~> 1.4)
     opus-ruby (1.0.1)
       ffi
