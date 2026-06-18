@@ -10,7 +10,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 自動的に付与されるGITHUB_TOKENを環境変数にセット
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - id: meta
         uses: dependabot/fetch-metadata@v2
       - if: ${{ steps.meta.outputs.update-type == 'version-update:semver-patch' }}
