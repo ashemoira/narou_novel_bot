@@ -16,4 +16,4 @@ jobs:
       - if: ${{ steps.meta.outputs.update-type == 'version-update:semver-patch' }}
         run: |
           gh pr review "${GITHUB_HEAD_REF}" --approve # github cliでレビュー承認
-          gh pr merge "${GITHUB_HEAD_REF}" --merge -auto # github cliでマージ
+          gh pr merge "${GITHUB_HEAD_REF}" --merge --auto # github cliでマージ
