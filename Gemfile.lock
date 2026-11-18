@@ -12,7 +12,7 @@ GEM
     discordrb-webhooks (3.8.0)
       rest-client (>= 2.0.0)
     domain_name (0.6.20240107)
-    ethon (0.18.0)
+    ethon (0.19.1)
       ffi (>= 1.15.0)
       logger
     event_emitter (0.2.6)
@@ -42,8 +42,8 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
-    typhoeus (1.6.0)
-      ethon (>= 0.18.0)
+    typhoeus (1.7.1)
+      ethon (>= 0.19.1, < 0.20.0)
     websocket (1.2.11)
     websocket-client-simple (0.9.0)
       base64
